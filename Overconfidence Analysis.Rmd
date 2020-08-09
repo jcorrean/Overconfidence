@@ -1,0 +1,30 @@
+---
+title: "Overconfidence Analysis"
+author: | 
+  | Juan C. Correa
+  | University of Economics, Prague
+date: "8/9/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Preliminary steps
+Let's define our local folder as follows:
+```{r}
+setwd("/home/juan/Documents/GitHub/Overconfidence")
+```
+and let's load the raw data as follows
+```{r}
+load("~/Documents/GitHub/Overconfidence/d.RData")
+```
+Readers interested in reproducing our results might clone the repository or just download the raw data along with its corresponding scripts.
+
+Now, let's run some preliminary ad-hoc functions for reporting results and creating graphs
+```{r}
+source("helper.R")
+source("helper2.R")
+source("graphs.R")
+```
+
